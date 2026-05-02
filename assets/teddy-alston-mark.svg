@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Teddy Alston monogram</title>
+  <desc id="desc">A geometric T A monogram in red, teal, blue, and charcoal.</desc>
+  <rect width="512" height="512" rx="56" fill="#fffaf0"/>
+  <path d="M68 76h376v72H68z" fill="#202124"/>
+  <path d="M220 136h72v298h-72z" fill="#202124"/>
+  <path d="M91 420 256 90l165 330h-83l-31-69H205l-31 69H91z" fill="#166f68"/>
+  <path d="M232 289h48l-24-58-24 58z" fill="#fffaf0"/>
+  <path d="M68 76h170v72H68z" fill="#ce4d34"/>
+  <path d="M292 76h152v72H292z" fill="#283b8f"/>
+</svg>
