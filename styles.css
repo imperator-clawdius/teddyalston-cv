@@ -28,6 +28,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background:
     linear-gradient(90deg, rgba(71, 245, 226, 0.08) 1px, transparent 1px),
     linear-gradient(180deg, rgba(186, 255, 99, 0.06) 1px, transparent 1px),
@@ -283,11 +284,13 @@ h3 {
 }
 
 .profile-band,
+.builder-band,
 .systems-section {
   background: rgba(17, 23, 42, 0.62);
 }
 
 .resume-band,
+.projects-section,
 .credentials-band {
   background: rgba(12, 16, 32, 0.7);
 }
@@ -309,7 +312,23 @@ h3 {
   gap: 16px;
 }
 
+.builder-grid,
+.project-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.builder-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project-grid {
+  grid-template-columns: 1fr;
+}
+
 .focus-card,
+.builder-card,
+.project-card,
 .timeline-item,
 .credentials-grid article {
   border: 1px solid rgba(71, 245, 226, 0.3);
@@ -321,6 +340,18 @@ h3 {
 .focus-card {
   min-height: 230px;
   padding: 24px;
+}
+
+.builder-card,
+.project-card {
+  padding: 24px;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.36fr) minmax(300px, 0.64fr);
+  gap: 18px 24px;
+  align-items: start;
 }
 
 .focus-card:hover {
@@ -349,11 +380,45 @@ h3 {
 }
 
 .focus-card p,
+.builder-card p,
+.project-card p,
+.project-card li,
 .timeline-item li,
 .systems-copy p,
 .credentials-grid p {
   color: var(--muted);
   line-height: 1.56;
+}
+
+.project-kicker {
+  grid-row: span 3;
+  color: var(--cyan);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+  text-shadow: 0 0 18px rgba(71, 245, 226, 0.62);
+}
+
+.project-card:nth-child(2) .project-kicker {
+  color: var(--pink);
+  text-shadow: 0 0 18px rgba(255, 79, 163, 0.62);
+}
+
+.project-card:nth-child(3) .project-kicker {
+  color: var(--yellow);
+  text-shadow: 0 0 18px rgba(255, 230, 107, 0.62);
+}
+
+.project-card p {
+  margin: 0;
+  font-size: 1.06rem;
+}
+
+.project-card ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .timeline {
@@ -488,9 +553,18 @@ h3 {
   }
 
   .focus-grid,
+  .builder-grid,
   .systems-grid,
   .credentials-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-kicker {
+    grid-row: auto;
   }
 
   .metrics {
@@ -512,23 +586,56 @@ h3 {
 
   .nav-links {
     width: 100%;
-    justify-content: space-between;
-    gap: 10px;
-    font-size: 0.82rem;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: start;
+    gap: 8px 13px;
+    font-size: 0.74rem;
+  }
+
+  .hero {
+    display: block;
+    padding-top: 36px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hero-media {
+    justify-items: start;
+    margin-bottom: 28px;
+  }
+
+  .hero-media img {
+    width: min(100%, 300px);
+  }
+
+  .hero-copy {
+    width: min(90vw, 330px);
+    max-width: min(90vw, 330px);
   }
 
   h1 {
-    font-size: 3.6rem;
+    font-size: 2.9rem;
   }
 
   h2 {
     font-size: 2.25rem;
   }
 
+  .eyebrow {
+    font-size: 0.7rem;
+  }
+
   .lead,
   .section-body p,
   .contact-note {
-    font-size: 1.08rem;
+    font-size: 1rem;
+  }
+
+  .lead,
+  .hero-actions {
+    width: min(90vw, 330px);
+    max-width: min(90vw, 330px);
   }
 
   .metrics {
