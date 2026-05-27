@@ -421,6 +421,30 @@ h3 {
   padding-left: 20px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: auto;
+  padding-top: 1.1rem;
+}
+
+.project-links a {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f8fafc;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  padding: 0.52rem 0.7rem;
+  text-decoration: none;
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+  border-color: rgba(74, 222, 128, 0.7);
+  color: #86efac;
+}
+
 .timeline {
   display: grid;
   gap: 16px;
