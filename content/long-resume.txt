@@ -1,9 +1,101 @@
-Paste or save Teddy Alston's long resume version here.
+THEODORE J. ALSTON III
+Entrepreneur / Operator
+Orlando, FL
+theodore.alston@gmail.com
+https://teddyalston.com
+https://github.com/imperator-clawdius
 
-Recommended content:
-- Full work history
-- Project details
-- Education
-- Certifications or credentials
-- Skills and tools
-- Public links to publish
+Source: public-safe extraction from FlowCV resume PDF exported 2026-05-27.
+Original local file: C:\Users\Truet\Downloads\THEODORE_J._ALSTON_III_FlowCV_Resume_2026-05-27.pdf
+Privacy note: the phone number in the PDF is intentionally not copied into this public repository source file.
+
+PROFESSIONAL SUMMARY
+
+Entrepreneurial operator with 12+ years of experience building, scaling, and systematizing revenue-generating businesses across financial services, sales, and emerging technologies. Known for designing process-driven solutions that eliminate operational bottlenecks, align stakeholders, and convert complexity into execution. Proven revenue producer and client advisor with deep experience in regulated, high-trust environments.
+
+PROFESSIONAL EXPERIENCE
+
+Founder / Operator, Passive Print Labs LLC
+2024 - Present, Orlando, FL
+- Launched a 3D-printing fabrication business producing custom consumer products.
+- Implemented end-to-end production workflows including design, fabrication, quality control, and fulfillment.
+- Generated $2K-$4K in first-year revenue while validating scalable production processes.
+
+Founder / Operator, Fire Blast Collectibles LLC
+2022 - Present, Orlando, FL
+- Built and operated a collectible trading card business specializing in graded and sealed products.
+- Managed acquisition, valuation, pricing strategy, and resale across volatile secondary markets.
+- Generated $25K-$30K annually, self-funded, with disciplined inventory and margin controls.
+- Developed sourcing, authentication, and resale risk-management systems.
+
+Founder / Operator, True Tax Strategies LLC, formerly True Tax Services LLC
+2018 - Present, Orlando, FL
+- Founded and scaled a federally compliant tax preparation and advisory firm generating $100K-$200K annually, fully self-funded since 2019.
+- Paid off an initial $30,000 startup loan within the first year, transitioning to sustained profitability.
+- Personally prepared and reviewed complex individual and self-employed tax returns across evolving federal tax law from 2014 through 2026.
+- Designed internal procedures and client workflows to reduce filing friction, increase accuracy, and support scalable operations.
+- Served and advised 500+ clients, maintaining long-term relationships in a high-liability, high-trust environment.
+- Generated $1M+ in cumulative personal revenue through direct tax preparation and advisory services.
+
+Licensed Medicare Insurance Agent, Universal Insurance Agents
+2021, Boca Raton, FL
+- Maintained Florida 2-15 Life and Health Insurance License.
+- Sold Medicare plans in a fiduciary broker role, aligning carriers, prescriptions, and benefits to individual client needs.
+- Operated in a highly regulated sales environment requiring precision, compliance, and detailed documentation.
+
+Line Cook, Grand Lux Cafe
+2018 - 2020, Boca Raton, FL
+- Operated as a saute station cook in a high-volume kitchen until the pandemic shutdown.
+- Prepared 100+ menu items, managing 6-10 simultaneous orders under time-critical conditions.
+- Oversaw back-of-house inventory and storage organization.
+
+EDUCATION AND CONTINUING DEVELOPMENT
+
+Degree in progress, multiple post-secondary institutions
+- Actively pursuing CompTIA Security+ Certification.
+- Actively pursuing an Associate or Bachelor's Degree in Business.
+
+CERTIFICATIONS AND CREDENTIALS
+
+- IRS EFIN holder.
+- IRS PTIN holder.
+- Florida 2-15 Life and Health Insurance License.
+- UCF Cybersecurity Bootcamp Certificate, $17,500 intensive industry-aligned program.
+- CompTIA Security+ in progress.
+
+CORE STRENGTHS
+
+- Business operations and process design.
+- Cross-functional stakeholder alignment.
+- Tax preparation and federal compliance.
+- Team leadership and performance management.
+- Revenue generation and sales strategy.
+- Client advisory and trust-based selling.
+- Systems implementation and workflow optimization.
+- Startup and small-business consulting.
+
+OPERATIONAL PROFILE
+
+Brings a rare blend of entrepreneurial ownership, regulated-industry discipline, and frontline sales leadership. Experienced in building businesses from zero, scaling them through process design, and scaling them through systems rather than brute force. Comfortable operating independently or within large, complex organizations, with a consistent record of translating ambiguity into execution, aligning people to outcomes, and sustaining performance in environments where accuracy, trust, and accountability are non-negotiable.
+
+LEADERSHIP AND IMPACT
+
+- Managed a high-performance sales team generating approximately $1M per month in tech support sales from 2013 to 2014.
+- Built and operated three companies, with hands-on leadership across five total businesses.
+- Recognized for anticipating operational roadblocks and resolving them through systems, structure, and people.
+
+PORTFOLIO AND GITHUB ALIGNMENT
+
+Public work:
+- teddyalston.com: portfolio and CV site published through GitHub Pages.
+- launchdesk: public self-hostable cockpit for turning small-service ideas into revenue systems.
+- getpocketdungeon.com: public website for Pocket Dungeon.
+
+Private case-study work:
+- SuiteScrape: AI web intelligence and scraping SaaS workspace.
+- Pocket Dungeon: Android AI-assisted tabletop RPG companion.
+- Helm AI Receptionist: local-business intake, call handling, booking, and automation workflows.
+- PactLock: Windows focus-lock tester package and beta workflow.
+- PayPrompt: mobile/payment prompt workflow and Android release prep.
+- TeachBridge: education product with local verification cockpit.
+- Jarvis Onshape MCP: CAD automation with MCP, FeatureScript, and parametric iteration.
