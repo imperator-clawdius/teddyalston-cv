@@ -13,7 +13,7 @@ These repos are safe to use as public profile signal.
 | --- | --- | --- |
 | `imperator-clawdius/imperator-clawdius` | GitHub profile README | Public front door for the GitHub account. |
 | `imperator-clawdius/teddyalston-cv` | Portfolio/CV site | GitHub Pages repo for `teddyalston.com`. |
-| `imperator-clawdius/launchdesk` | Public product demo | Self-hostable cockpit for small-service revenue systems. |
+| `imperator-clawdius/launchdesk` | Free open-source service | MIT-licensed GitHub repo and self-hostable cockpit for small-service revenue systems. |
 | `imperator-clawdius/getpocketdungeon.com` | Public product site | Pocket Dungeon public website, while the app source stays private. |
 
 ## Private case-study repos
