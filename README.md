@@ -1,6 +1,6 @@
-# Teddy Alston CV Site
+# Teddy Alston Portfolio Site
 
-Static CV landing page for `teddyalston.com`.
+Static portfolio and CV site for `teddyalston.com`.
 
 ## Content workflow
 
@@ -8,6 +8,7 @@ Save resume source material here:
 
 - `content/short-resume.txt`
 - `content/long-resume.txt`
+- `content/github-repo-map.md`
 
 After those drafts are available, update `index.html` with the final profile,
 experience, selected work, and contact details.
@@ -17,5 +18,5 @@ experience, selected work, and contact details.
 This repo is intended for GitHub Pages. The `CNAME` file sets the custom domain
 to `teddyalston.com`.
 
-The domain registrar still needs DNS records that point the apex domain and
-`www` subdomain to GitHub Pages.
+The apex DNS records currently point to GitHub Pages. HTTPS should be verified
+after GitHub finishes issuing or renewing the Pages certificate.
