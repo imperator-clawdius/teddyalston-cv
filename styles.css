@@ -283,6 +283,18 @@ h3 {
   border-top: 1px solid rgba(71, 245, 226, 0.22);
 }
 
+.section > *,
+.hero > *,
+.section-heading,
+.builder-card,
+.focus-card,
+.project-card,
+.timeline-item,
+.stack-group {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .profile-band,
 .builder-band,
 .systems-section {
@@ -501,6 +513,30 @@ h3 {
   box-shadow: 0 0 18px rgba(255, 79, 163, 0.1);
 }
 
+.stack-groups {
+  display: grid;
+  gap: 12px;
+}
+
+.stack-group {
+  padding: 18px;
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-radius: 8px;
+  background: rgba(255, 79, 163, 0.08);
+  box-shadow: 0 0 18px rgba(255, 79, 163, 0.08);
+}
+
+.stack-group h3 {
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+
+.stack-group p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.52;
+}
+
 .credentials-grid article {
   padding: 24px;
 }
@@ -643,7 +679,7 @@ h3 {
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .eyebrow {
