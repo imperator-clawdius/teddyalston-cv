@@ -1,13 +1,13 @@
 # GitHub Repo Map
 
-Last updated: 2026-06-15
+Last updated: 2026-06-16
 
 This file keeps `imperator-clawdius` organized around the public portfolio at
 `teddyalston.com`.
 
 Inventory pass: 50 GitHub repositories, 43 original repositories, 7 forks, 38
-private repositories, 12 public repositories, and 18 local git roots found on
-this computer.
+private repositories, 12 public repositories, 18 local git roots found on this
+computer, and one public commerce storefront.
 
 ## Priority 0: lead public portfolio repos
 
@@ -21,10 +21,11 @@ These repos are safe to use as public profile signal.
 | `imperator-clawdius/teddyalston-cv` | Portfolio/CV site | GitHub Pages repo for `teddyalston.com`. |
 | `imperator-clawdius/getpocketdungeon.com` | Public product site | Pocket Dungeon public website, while the app source stays private. |
 
-## Priority 1: private case-study repos
+## Priority 1: original case studies and operating assets
 
-These should stay private unless intentionally reviewed and cleaned for public
-release. Use them as written case studies on the site.
+Private repos should stay private unless intentionally reviewed and cleaned for
+public release. Non-repo operating assets should be represented as public-safe
+case studies without exposing private metrics, credentials, or internal triggers.
 
 | Repo | Case-study angle |
 | --- | --- |
@@ -40,6 +41,10 @@ release. Use them as written case studies on the site.
 | `imperator-clawdius/burnwatch` | Wildfire and severe-weather intelligence prototype. |
 | `imperator-clawdius/monster-trail-modern-hd` | Private Android game launch kit. |
 | `imperator-clawdius/jarvis-onshape-mcp` | CAD automation with MCP, FeatureScript, and parametric iteration. |
+
+| Non-repo asset | Case-study angle |
+| --- | --- |
+| `FrequencyThreadsCo` | Etsy storefront and print-on-demand commerce case study for brand operations, marketplace positioning, listing workflows, and public-safe growth loops. |
 
 ## Priority 2: AI service and revenue kits
 

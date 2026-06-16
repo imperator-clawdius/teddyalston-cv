@@ -90,11 +90,13 @@ Public work:
 - teddyalston.com: portfolio and CV site published through GitHub Pages.
 - launchdesk: public self-hostable cockpit for turning small-service ideas into revenue systems.
 - getpocketdungeon.com: public website for Pocket Dungeon.
+- FrequencyThreadsCo: Etsy storefront and print-on-demand commerce case study.
 
-Private case-study work:
+Private and operating case-study work:
 - SuiteScrape: AI web intelligence and scraping SaaS workspace.
 - Pocket Dungeon: Android AI-assisted tabletop RPG companion.
 - Helm AI Receptionist: local-business intake, call handling, booking, and automation workflows.
+- FrequencyThreadsCo: marketplace positioning, listing workflow, brand operations, and public-safe growth loops.
 - PactLock: Windows focus-lock tester package and beta workflow.
 - PayPrompt: mobile/payment prompt workflow and Android release prep.
 - TeachBridge: education product with local verification cockpit.
