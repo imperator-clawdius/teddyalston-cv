@@ -1,11 +1,11 @@
 # GitHub Repo Map
 
-Last updated: 2026-06-16
+Last updated: 2026-06-18
 
 This file keeps `imperator-clawdius` organized around the public portfolio at
 `teddyalston.com`.
 
-Inventory pass: 50 GitHub repositories, 43 original repositories, 7 forks, 38
+Inventory pass: 51 GitHub repositories, 44 original repositories, 7 forks, 39
 private repositories, 12 public repositories, 18 local git roots found on this
 computer, and one public commerce storefront.
 
@@ -67,6 +67,7 @@ Keep private; useful as internal capability evidence.
 - `imperator-clawdius/career-ops`
 - `imperator-clawdius/mempalace`
 - `imperator-clawdius/memory-palace-web-frontend`
+- `imperator-clawdius/ProjectMedusa`
 - `imperator-clawdius/openclaw`
 - `imperator-clawdius/openclaw-android`
 - `imperator-clawdius/NemoClaw`
@@ -75,6 +76,11 @@ Keep private; useful as internal capability evidence.
 - `imperator-clawdius/poly_data`
 - `imperator-clawdius/polymarket-cli`
 - `imperator-clawdius/revenue-automation-research`
+
+| Local/private asset | Internal angle |
+| --- | --- |
+| `Trident Relay` | Bot relay and local agent operations; keep raw deployment details private. |
+| `ImperatorBrain` | Operating-memory and protocol workspace; use only high-level public-safe references. |
 
 ## Priority 4: archive candidates
 
@@ -106,6 +112,7 @@ public homepage signal without separate review.
 
 - Private firmware/security research repos.
 - Safety-sensitive experiments.
+- Private agent-control deployment details, LAN topology, host runbooks, tokens, keys, and device identifiers.
 - Local remediation packages and backups.
 - Local staging directories that duplicate a canonical repo.
 - Repos whose public README belongs primarily to an upstream project.
