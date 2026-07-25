@@ -1,0 +1,42 @@
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#07101d",
+    "primaryColor": "#0c1828",
+    "primaryTextColor": "#f8fbff",
+    "primaryBorderColor": "#39d9ff",
+    "lineColor": "#7f8da3",
+    "secondaryColor": "#0a1423",
+    "tertiaryColor": "#07101d",
+    "fontFamily": "Inter, Arial, sans-serif",
+    "fontSize": "15px"
+  },
+  "flowchart": {
+    "curve": "basis",
+    "nodeSpacing": 28,
+    "rankSpacing": 52,
+    "htmlLabels": true
+  }
+}}%%
+flowchart LR
+    subgraph CONTROL["Control & oversight"]
+        direction TB
+        OP["Operator<br/>Telegram"]
+        FEN["Fenrir<br/>independent watchdog"]
+    end
+
+    OP --> GW["Multi-profile<br/>agent gateway"]
+    GW --> AGENTS["Four-agent plane · two hosts<br/>Clawdius · Poseidon · Widowmaker · Skorpius"]
+    AGENTS <--> MP[("MemPalace<br/>shared durable memory")]
+    AGENTS --> MCP["Scoped MCP tool plane<br/>publishing · X · memory"]
+    FEN -. health checks .-> GW
+    FEN -. health checks .-> AGENTS
+
+    classDef primary fill:#0c1828,stroke:#39d9ff,color:#f8fbff,stroke-width:2px;
+    classDef specialist fill:#0c1828,stroke:#ff40b4,color:#f8fbff,stroke-width:2px;
+    classDef memory fill:#0c1828,stroke:#c9ff28,color:#f8fbff,stroke-width:2px;
+    classDef monitor fill:#0c1828,stroke:#ff8a3d,color:#f8fbff,stroke-width:2px;
+    class OP,GW primary;
+    class AGENTS,MCP specialist;
+    class MP memory;
+    class FEN monitor;
