@@ -1,465 +1,332 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teddy Alston | Corporate CV, AI Systems, and Product Portfolio</title>
+    <title>Teddy Alston | Forward-Deployed AI Engineer</title>
     <meta
       name="description"
-      content="Corporate CV for Teddy Alston: AI systems architecture, tax operations, founder-side product execution, and a portfolio of public and private builds."
+      content="Teddy Alston is a forward-deployed AI engineer building bounded, auditable agent systems for real operations—from prototype through production."
     >
-    <meta name="theme-color" content="#f4f1e8">
-    <meta property="og:title" content="Teddy Alston | Corporate CV, AI Systems, and Product Portfolio">
+    <meta name="theme-color" content="#070912">
+    <meta property="og:title" content="Teddy Alston | Forward-Deployed AI Engineer">
     <meta
       property="og:description"
-      content="Professional one-page CV covering AI implementation, tax operations, business execution, technical stack, and product portfolio."
+      content="Production agent infrastructure, governed enterprise workflows, and compliance-oriented product delivery."
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://teddyalston.com/">
+    <meta property="og:image" content="https://teddyalston.com/assets/teddyalston-logo-2.png">
     <link rel="canonical" href="https://teddyalston.com/">
     <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="assets/teddyalston-icon-192.png" type="image/png" sizes="192x192">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
   </head>
-  <body>
-    <header class="site-header" aria-label="Site navigation">
-      <a class="brand" href="#top" aria-label="Teddy Alston home">
-        <img src="assets/teddyalston-icon-192.png" width="40" height="40" alt="">
-        <span>Teddy Alston</span>
-      </a>
-      <nav class="nav-links" aria-label="Primary">
-        <a href="#profile">Summary</a>
-        <a href="#projects">Portfolio</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="#experience">Experience</a>
-        <a href="#systems">Architecture</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <body class="portfolio-home">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/teddyalston-logo-2.png" width="512" height="512" alt="">
+    <div class="portfolio-shell">
+      <aside class="portfolio-rail" aria-label="Portfolio navigation">
+        <a class="rail-brand" href="#overview" aria-label="Teddy Alston home">
+          <img src="assets/teddyalston-icon-192.png" width="68" height="68" alt="">
+          <span>
+            <strong>Teddy Alston</strong>
+            <small>AI systems builder</small>
+          </span>
+        </a>
+
+        <nav class="rail-nav" aria-label="Primary">
+          <a class="is-current" href="#overview">Overview</a>
+          <a href="#trident">Trident Protocol</a>
+          <a href="#argos">Argos Command</a>
+          <a href="#traceready">TraceReady</a>
+          <a href="#operating-model">Operating model</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="rail-footer">
+          <p>Precise systems.<br>Bounded AI.<br>Measurable outcomes.</p>
+          <a href="catalog.html">
+            Project archive
+            <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+          </a>
         </div>
-        <div class="hero-copy">
-          <p class="eyebrow">Corporate CV | AI Systems Portfolio | Tax Strategy</p>
-          <h1 id="hero-title">Teddy Alston</h1>
-          <p class="lead">
-            Founder-side operator and AI systems builder with a portfolio of
-            public and private creations across traceability cleanup, open-source
-            revenue tools, SaaS prototypes, iOS and Android apps, automation
-            workflows, and regulated tax operations.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="mailto:theodore.alston@gmail.com">Email</a>
-            <a class="button secondary" href="Teddy-Alston-CV.pdf" download>Download CV (PDF)</a>
-            <a class="button secondary" href="#projects">View Projects</a>
+      </aside>
+
+      <header class="mobile-header">
+        <a class="mobile-brand" href="#overview" aria-label="Teddy Alston home">
+          <img src="assets/teddyalston-icon-192.png" width="42" height="42" alt="">
+          <span>Teddy Alston</span>
+        </a>
+        <details class="mobile-menu">
+          <summary>Menu</summary>
+          <nav aria-label="Mobile">
+            <a href="#trident">Work</a>
+            <a href="#operating-model">About</a>
+            <a href="Teddy-Alston-CV.pdf" download>Resume</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </details>
+      </header>
+
+      <main class="portfolio-main" id="main-content">
+        <section class="dossier-hero" id="overview" aria-labelledby="hero-title">
+          <div class="hero-statement">
+            <p class="signal-line">
+              <span>AI systems builder</span>
+              <span>Operator</span>
+              <span>Engineer</span>
+            </p>
+            <h1 id="hero-title">
+              <span class="headline-line">Forward-Deployed</span>
+              <span class="headline-line">AI Engineer</span>
+            </h1>
+            <div class="spectrum-rule" aria-hidden="true"></div>
+            <p class="hero-lead">
+              I turn messy business operations into bounded, auditable AI
+              systems—from prototype through production.
+            </p>
+            <nav class="dossier-actions" aria-label="Primary actions">
+              <a class="action action-primary" href="#trident">
+                Explore Trident
+                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </a>
+              <a class="action action-text action-cyan" href="Teddy-Alston-CV.pdf" download>
+                <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+                Resume
+              </a>
+              <a
+                class="action action-text action-pink"
+                href="https://github.com/imperator-clawdius"
+                rel="me"
+              >
+                <i class="bi bi-github" aria-hidden="true"></i>
+                GitHub
+              </a>
+            </nav>
           </div>
-        </div>
-      </section>
 
-      <section class="metrics" aria-label="Career metrics">
-        <div>
-          <strong>500+</strong>
-          <span>tax clients advised</span>
-        </div>
-        <div>
-          <strong>$1M+</strong>
-          <span>cumulative personal revenue</span>
-        </div>
-        <div>
-          <strong>52</strong>
-          <span>repo and storefront assets prioritized</span>
-        </div>
-        <div>
-          <strong>12+</strong>
-          <span>years in tax and advisory work</span>
-        </div>
-      </section>
-
-      <section class="section builder-band" id="profile" aria-labelledby="builder-title">
-        <div class="section-heading">
-          <p class="eyebrow">Portfolio Summary</p>
-          <h2 id="builder-title">Creation portfolio, operating discipline, and AI-native delivery.</h2>
-        </div>
-        <div class="builder-grid">
-          <article class="builder-card">
-            <h3>Creation portfolio</h3>
-            <p>
-              Public and private builds include LaunchDesk, SuiteScrape, Pocket
-              Dungeon, TraceReady, NightAnchor, Helm AI Receptionist,
-              FrequencyThreadsCo, PactLock, PayPrompt, TeachBridge, Jarvis
-              Onshape MCP, and multi-agent operating systems.
-            </p>
-          </article>
-          <article class="builder-card">
-            <h3>Execution role</h3>
-            <p>
-              Converts founder intent into prototypes, product specs, prompt
-              systems, automation flows, provider decisions, test plans, launch
-              assets, and handoff documentation.
-            </p>
-          </article>
-          <article class="builder-card">
-            <h3>Business value</h3>
-            <p>
-              Reduces the gap between idea, code, business model, QA, compliance,
-              and release so small teams can ship faster without losing control
-              of cost, privacy, or scope.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section profile-band" aria-labelledby="profile-title">
-        <div class="section-heading">
-          <p class="eyebrow">Professional Profile</p>
-          <h2 id="profile-title">Operator brain, tax depth, and systems execution.</h2>
-        </div>
-        <div class="section-body">
-          <p>
-            Founded and scaled True Tax Strategies LLC into a federally compliant
-            tax preparation and advisory firm producing $100K-$200K in annual
-            revenue. Scope includes complex individual and self-employed returns,
-            S-Corp structuring, payroll design, compliance, client operations,
-            and revenue growth.
-          </p>
-          <p>
-            Current projects include AI implementation for founders, fintech
-            teams, and modern tax firms across client workflows, internal
-            systems, growth loops, compliance boundaries, and decision speed.
-          </p>
-          <p>
-            Professional direction centers on translating business intent into
-            product scope, prompt architecture, model routing, automation
-            workflows, GitHub-ready delivery, testing evidence, and operating
-            plans a team can use.
-          </p>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="focus-title">
-        <div class="section-heading">
-          <p class="eyebrow">Corporate CV Scope</p>
-          <h2 id="focus-title">Founder-ready leverage with accountable systems.</h2>
-        </div>
-        <div class="focus-grid">
-          <article class="focus-card">
-            <span class="card-number">01</span>
-            <h3>Tax strategy and compliance</h3>
-            <p>S-Corp structuring, federal compliance, client advisory, payroll design, and founder-ready tax systems.</p>
-          </article>
-          <article class="focus-card">
-            <span class="card-number">02</span>
-            <h3>AI infrastructure</h3>
-            <p>Multi-agent architecture, LLM routing, prompt systems, cloud deployment, privacy guardrails, and automation loops.</p>
-          </article>
-          <article class="focus-card">
-            <span class="card-number">03</span>
-            <h3>Revenue operations</h3>
-            <p>Client outreach, sales workflows, SEO and AEO strategy, productized services, and measurable growth loops.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="eyebrow">Portfolio</p>
-          <h2 id="projects-title">Portfolio of creations and operating proof.</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project-card feature-card">
-            <div class="project-kicker">Priority 01 | Public Product</div>
-            <h3>TraceReady</h3>
-            <p>
-              Browser-side farm file cleanup product for coffee and cocoa
-              exporters preparing CSV, KML, and GeoJSON handoff packs before
-              buyer review.
-            </p>
-            <ul>
-              <li>Flags missing traceability fields, duplicate farm IDs, bad coordinates, and geometry issues.</li>
-              <li>Exports cleaned CSV, issue log, normalized GeoJSON, buyer summary, readiness report, checklist, and intake note.</li>
-              <li>Live commercial surface with public methodology, proof status, privacy, terms, and checkout handoff pages.</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://traceready.online">Site</a>
-              <a href="https://github.com/imperator-clawdius/traceready">Repo</a>
+          <dl class="proof-rail">
+            <div>
+              <i class="bi bi-shield-check" aria-hidden="true"></i>
+              <dt>7+</dt>
+              <dd>months in production</dd>
             </div>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 02 | Free Open-Source Service</div>
-            <h3>LaunchDesk</h3>
-            <p>
-              Free MIT-licensed GitHub repo and self-hostable service for
-              turning small-service ideas into revenue systems.
-            </p>
-            <ul>
-              <li>Idea intake, offer shaping, workflow tracking, and launch operations in one cockpit.</li>
-              <li>Open-source Node/Express service that can be forked, run locally, deployed privately, or taught from.</li>
-              <li>Kept public as a clean portfolio repo while product experiments stay private.</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/imperator-clawdius/launchdesk">Repo</a>
-              <a href="https://imperator-clawdius.github.io/launchdesk/">Demo</a>
+            <div>
+              <i class="bi bi-graph-up-arrow" aria-hidden="true"></i>
+              <dt>5,800+</dt>
+              <dd>logged agent events</dd>
             </div>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 03 | SaaS Buildout</div>
-            <h3>SuiteScrape</h3>
-            <p>
-              AI-supported web scraping and data workflow platform designed to
-              turn messy public web data into structured, usable business
-              intelligence.
-            </p>
-            <ul>
-              <li>Playwright scraping workflows with reliability and source checks.</li>
-              <li>Production planning across auth, payments, cache, deployment, and agent-facing APIs.</li>
-              <li>Older backend, website, and production repos are treated as merged or superseded by the main SuiteScrape case study.</li>
-            </ul>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 04 | Native iOS</div>
-            <h3>NightAnchor</h3>
-            <p>
-              Native iOS sleep enforcement app using Apple Screen Time APIs,
-              location checks, selfie verification, safeword override, and
-              audit logging.
-            </p>
-            <ul>
-              <li>SwiftUI app with Family Activity Picker, Managed Settings shields, Device Activity extensions, and permission drift checks.</li>
-              <li>Release-readiness work covers localization, privacy manifest, entitlement planning, physical-device validation, and App Store handoff notes.</li>
-              <li>Private source stays case-study level because it depends on Apple account and entitlement context.</li>
-            </ul>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 05 | Android + AI Game</div>
-            <h3>Pocket Dungeon</h3>
-            <p>
-              Active AI dungeon-master Android app build under construction,
-              currently focused on the local-first game shell, streaming DM
-              gateway, sprite pipeline, provider plan, and private GitHub
-              collaboration workflow.
-            </p>
-            <ul>
-              <li>Capacitor Android wrapper, emulator testing, debug APK export, and partner review loop in progress.</li>
-              <li>LLM gateway with mock providers, token budgets, DeepSeek V4 readiness, and gated smoke tests.</li>
-              <li>Gameplay UX under active iteration for party state, map overview, tactical choices, inventory, dice, and saves.</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/imperator-clawdius/getpocketdungeon.com">Public Site Repo</a>
-              <a href="https://getpocketdungeon.com">Site</a>
+            <div>
+              <i class="bi bi-clock-history" aria-hidden="true"></i>
+              <dt>50+</dt>
+              <dd>days without a sync gap</dd>
             </div>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 06 | Local-Business Automation</div>
-            <h3>Helm AI Receptionist</h3>
-            <p>
-              Premium AI receptionist workspace for local businesses with
-              intake, call handling, booking, conversation logs, client-specific
-              knowledge, and admin operations.
-            </p>
-            <ul>
-              <li>FastAPI architecture with multi-tenant client configuration and per-client FAQ/knowledge base planning.</li>
-              <li>Maps a concrete service-business wedge into AI calls, scheduling, follow-up, and operations.</li>
-              <li>Private source is represented as a case study until deployment and customer boundaries are finalized.</li>
-            </ul>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 07 | Commerce + Product Bench</div>
-            <h3>FrequencyThreadsCo and Product Bench</h3>
-            <p>
-              Operating bench spanning Etsy commerce, focus enforcement,
-              receivables follow-up, educator marketplace workflows, and
-              cross-platform mobile/web application architecture.
-            </p>
-            <ul>
-              <li>FrequencyThreadsCo: Etsy print-on-demand storefront with marketplace positioning, listing workflow, brand operations, and public-safe growth loops.</li>
-              <li>PactLock: Windows focus-lock private beta with hosts-file blocking, license activation, and tamper-evident receipts.</li>
-              <li>PayPrompt: local-first receivables desk for invoice follow-up, payment risk, exports, backups, and reminder drafts.</li>
-              <li>TeachBridge and Haven Cove: PWA, Expo, Next.js, Supabase, verification cockpits, and shared TypeScript packages.</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://www.etsy.com/shop/FrequencyThreadsCo">Etsy Shop</a>
+            <div>
+              <i class="bi bi-people" aria-hidden="true"></i>
+              <dt>500+</dt>
+              <dd>regulated-service clients</dd>
             </div>
-          </article>
-          <article class="project-card">
-            <div class="project-kicker">Priority 08 | Agent + Operations Systems</div>
-            <h3>Argos, Jarvis, BurnWatch, Project Medusa, and strategy kits</h3>
-            <p>
-              Operating systems for vendor risk, CAD automation, hazard
-              intelligence, multi-agent coordination, and packaged AI consulting
-              workflows.
-            </p>
-            <ul>
-              <li>Argos Vendor Command models third-party risk intake, OSINT/commercial specialist evidence, and decision packets.</li>
-              <li>Jarvis Onshape MCP adds vision-guided CAD automation, FeatureScript iteration, and structured mutation feedback.</li>
-              <li>Project Medusa, Trireme, and the AI strategy kits show agent control-plane work, multi-agent coordination, cautious intelligence workflows, content engines, lead follow-up, audits, and community funnels.</li>
-            </ul>
-          </article>
-        </div>
-        <div class="catalog-callout">
-          <p>
-            Full project inventory: 51 GitHub repositories, 44 original repos,
-            18 local git roots, one commerce storefront, public work, private
-            case studies, forks, archives, and approval-only experiments.
-          </p>
-          <a class="button secondary" href="catalog.html">Open Catalog</a>
-        </div>
-      </section>
+          </dl>
+        </section>
 
-      <section class="section resume-band" id="experience" aria-labelledby="experience-title">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2 id="experience-title">Current-to-earlier operating experience.</h2>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-meta">2024 - Present | Orlando, FL</div>
-            <h3>Founder / Operator | Passive Print Labs LLC</h3>
-            <ul>
-              <li>Launched a 3D-printing fabrication business producing custom consumer products.</li>
-              <li>Implemented end-to-end production workflows across design, fabrication, quality control, and fulfillment.</li>
-              <li>Generated $2K-$4K in first-year revenue while validating scalable production processes.</li>
-              <li>Expanded the operating lab into AI product builds, GitHub portfolio infrastructure, and public/private product case studies.</li>
-            </ul>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2022 - Present | Orlando, FL</div>
-            <h3>Founder / Operator | Fire Blast Collectibles LLC</h3>
-            <ul>
-              <li>Built and operated a collectible trading card business specializing in graded and sealed products.</li>
-              <li>Managed acquisition, valuation, pricing strategy, and resale across volatile secondary markets.</li>
-              <li>Generated $25K-$30K annually with disciplined inventory, sourcing, authentication, margin, and resale risk controls.</li>
-            </ul>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2018 - Present | Orlando, FL</div>
-            <h3>Founder / Operator | True Tax Strategies LLC</h3>
-            <ul>
-              <li>Founded and scaled a federally compliant tax preparation and advisory firm producing $100K-$200K annually.</li>
-              <li>Paid off an initial $30,000 startup loan within the first year and transitioned to sustained profitability.</li>
-              <li>Prepared and reviewed complex individual and self-employed tax returns across evolving federal tax law.</li>
-              <li>Served and advised 500+ clients while maintaining long-term trust in a high-liability compliance environment.</li>
-            </ul>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2021 | Boca Raton, FL</div>
-            <h3>Licensed Medicare Insurance Agent | Universal Insurance Agents</h3>
-            <ul>
-              <li>Sold Medicare plans in a fiduciary broker role under strict regulatory compliance.</li>
-              <li>Mapped carriers, prescriptions, benefits, and plan suitability to individual client needs.</li>
-              <li>Operated in a regulated sales environment requiring precision, documentation, and client trust.</li>
-            </ul>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2018 - 2020 | Boca Raton, FL</div>
-            <h3>Line Cook | Grand Lux Cafe</h3>
-            <ul>
-              <li>Operated as a saute station cook in a high-volume kitchen until the pandemic shutdown.</li>
-              <li>Prepared 100+ menu items while managing 6-10 simultaneous orders under time-critical conditions.</li>
-              <li>Oversaw back-of-house inventory and storage organization.</li>
-            </ul>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2013 - 2014</div>
-            <h3>Sales Team Manager | Tech Support Sales Organization</h3>
-            <ul>
-              <li>Managed a high-performance sales team generating approximately $1M per month in revenue.</li>
-              <li>Led hiring, training, performance management, accountability systems, and daily floor operations.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section systems-section" id="systems" aria-labelledby="systems-title">
-        <div class="section-heading">
-          <p class="eyebrow">Tools, Languages, Architecture</p>
-          <h2 id="systems-title">System architecture and creation stack.</h2>
-        </div>
-        <div class="systems-grid">
-          <div class="systems-copy">
+        <section class="flagship-case" id="trident" aria-labelledby="trident-title">
+          <div class="case-summary">
+            <p class="case-label">Flagship system · Production</p>
+            <h2 id="trident-title">Trident Protocol</h2>
             <p>
-              Architecture spans public static sites, Node/Express services,
-              Capacitor Android wrappers, Python automation, Playwright
-              scraping, LLM gateways, multi-agent orchestration, JSON/SQL
-              persistence, auth, payments, and GitHub-centered delivery.
+              Four agents across two hosts with shared memory, scoped tools,
+              independent monitoring, and earned autonomy.
             </p>
+            <a
+              class="case-link"
+              href="https://github.com/imperator-clawdius/trident-protocol"
+            >
+              Read the production case study
+              <i class="bi bi-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <figure class="architecture-figure">
+            <img
+              src="assets/trident-architecture.png"
+              width="1184"
+              height="201"
+              alt="Trident Protocol architecture showing the operator, Telegram gateway, four agents, shared memory, scoped tools, and independent Fenrir monitoring."
+            >
+            <figcaption>
+              Four agents · two hosts · shared memory · independent watchdog
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="case-row case-pink" id="argos" aria-labelledby="argos-title">
+          <div class="case-identity">
+            <i class="bi bi-diagram-3" aria-hidden="true"></i>
+            <div>
+              <p class="case-label">Governed workflow</p>
+              <h2 id="argos-title">Argos Vendor Command</h2>
+              <p>
+                Multi-agent vendor-risk workflow with a seven-state machine,
+                dual-specialist review, weighted policy, and human override.
+              </p>
+            </div>
+          </div>
+          <ul class="case-points">
+            <li>Explicit transition gates</li>
+            <li>Nine-domain risk policy</li>
+            <li>Versioned evidence record</li>
+          </ul>
+          <a
+            class="case-link"
+            href="https://github.com/imperator-clawdius/argos-vendor-command"
+          >
+            Explore case study
+            <i class="bi bi-arrow-right" aria-hidden="true"></i>
+          </a>
+        </section>
+
+        <section class="case-row case-lime" id="traceready" aria-labelledby="traceready-title">
+          <div class="case-identity">
+            <i class="bi bi-layers" aria-hidden="true"></i>
+            <div>
+              <p class="case-label">Shipped product</p>
+              <h2 id="traceready-title">TraceReady</h2>
+              <p>
+                Browser-side traceability cleanup that turns messy farm files
+                into deterministic buyer-ready evidence packs.
+              </p>
+            </div>
+          </div>
+          <ul class="case-points">
+            <li>CSV, KML, and GeoJSON</li>
+            <li>Raw data stays browser-side</li>
+            <li>Structured audit-ready exports</li>
+          </ul>
+          <div class="case-link-group">
+            <a class="case-link" href="https://traceready.online">
+              View product
+              <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a class="case-link secondary-link" href="https://github.com/imperator-clawdius/traceready">
+              Repository
+            </a>
+          </div>
+        </section>
+
+        <section class="operating-model" id="operating-model" aria-labelledby="model-title">
+          <div class="section-intro">
+            <p class="case-label">How I deploy</p>
+            <h2 id="model-title">From ambiguity to an operated system.</h2>
             <p>
-              Delivery patterns include directive stacks, escalation protocols,
-              sub-agent delegation, provider routing, smoke tests, Android
-              testing loops, deployment handoffs, data isolation boundaries, and
-              approval checkpoints for regulated or client-sensitive work.
+              Forward deployment is part discovery, part engineering, and part
+              operating judgment. The work is not finished when the demo runs.
             </p>
           </div>
-          <div class="stack-groups" aria-label="Tools, languages, and architecture stack">
-            <article class="stack-group">
-              <h3>Languages</h3>
-              <p>JavaScript, TypeScript, Python, Go, Rust, Java, C, C++, HTML, CSS.</p>
-            </article>
-            <article class="stack-group">
-              <h3>Application Layer</h3>
-              <p>Node.js, Express, React, Capacitor, static GitHub Pages, Android wrappers, REST/JSON APIs.</p>
-            </article>
-            <article class="stack-group">
-              <h3>AI and Automation</h3>
-              <p>Claude Code, OpenAI workflows, LLM gateways, provider routing, prompt systems, multi-agent delegation, Playwright automation.</p>
-            </article>
-            <article class="stack-group">
-              <h3>Data, Auth, Payments</h3>
-              <p>JSON persistence, PlanetScale, Redis, Clerk, Stripe, audit exports, privacy boundaries, client-data isolation.</p>
-            </article>
-            <article class="stack-group">
-              <h3>Cloud and Delivery</h3>
-              <p>GitHub, GitHub Pages, Docker, Vercel, Railway, Render, DigitalOcean, Tailscale, CI-style smoke tests, deployment handoffs.</p>
-            </article>
+          <ol class="model-steps">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>Discover</h3>
+                <p>Map the real workflow, decision rights, constraints, and failure cost.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>Prototype</h3>
+                <p>Build the smallest useful path and make assumptions observable.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Deploy</h3>
+                <p>Ship with scoped authority, human gates, recovery paths, and documentation.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <h3>Operate</h3>
+                <p>Measure behavior, root-cause incidents, and increase autonomy only on evidence.</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="operator-section" id="about" aria-labelledby="about-title">
+          <div>
+            <p class="case-label">Operator context</p>
+            <h2 id="about-title">Engineering shaped by real consequences.</h2>
           </div>
-        </div>
-      </section>
-
-      <section class="section credentials-band" aria-labelledby="credentials-title">
-        <div class="section-heading">
-          <p class="eyebrow">Credentials</p>
-          <h2 id="credentials-title">Credentials and professional fit.</h2>
-        </div>
-        <div class="credentials-grid">
-          <article>
-            <h3>Credentials</h3>
-            <p>IRS EFIN holder, IRS PTIN holder, Florida 2-15 Life & Health Insurance License, UCF Cybersecurity Bootcamp Certificate, CompTIA Security+ in progress.</p>
-          </article>
-          <article>
-            <h3>Engagement fit</h3>
-            <p>AI implementation specialist, AI product builder, fractional CSO, fractional tax strategy advisor, or AI infrastructure consultant for founders, tax firms, fintech teams, and automation-heavy operators.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Professional contact.</h2>
-        </div>
-        <div>
-          <p class="contact-note">
-            Based in Orlando, Florida. Available for remote fractional and
-            advisory engagements with founders, tax firms, fintech teams,
-            AI-augmented financial services companies, and teams that need a
-            practical bridge between idea, automation, code, and launch.
-          </p>
-          <div class="contact-actions">
-            <a class="contact-link" href="mailto:theodore.alston@gmail.com">theodore.alston@gmail.com</a>
-            <a class="contact-link" href="Teddy-Alston-CV.pdf" download>Download CV (PDF)</a>
-            <a class="contact-link" href="https://github.com/imperator-clawdius">GitHub</a>
-            <a class="contact-link" href="https://github.com/imperator-clawdius/imperator-clawdius">Profile README</a>
+          <div class="operator-copy">
+            <p class="operator-lead">
+              I have spent 12+ years building and operating businesses where
+              errors affect customers, compliance, cash flow, and trust.
+            </p>
+            <p>
+              That background changes how I build AI systems: permissions are
+              explicit, regulated data stays outside the agent plane, important
+              decisions leave evidence, and every autonomous loop has a stop
+              condition.
+            </p>
+            <ul class="core-stack" aria-label="Core engineering stack">
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>REST APIs</li>
+              <li>Docker</li>
+              <li>Tailscale</li>
+              <li>LLM routing</li>
+              <li>MCP tooling</li>
+            </ul>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <footer class="site-footer">
-      <span>Teddy Alston</span>
-      <span>Updated 2026</span>
-    </footer>
+        <section class="contact-dossier" id="contact" aria-labelledby="contact-title">
+          <div>
+            <p class="case-label">Open to the right deployment problem</p>
+            <h2 id="contact-title">Need an engineer who can operate in the mess?</h2>
+          </div>
+          <div>
+            <p>
+              I am targeting forward-deployed engineering, AI deployment,
+              agent-infrastructure, and enterprise tooling roles.
+            </p>
+            <div class="contact-actions">
+              <a class="action action-primary" href="mailto:theodore.alston@gmail.com">
+                Start a conversation
+                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </a>
+              <a class="action action-text action-cyan" href="Teddy-Alston-CV.pdf" download>
+                Download resume
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <footer class="dossier-footer">
+          <span>Teddy Alston · Orlando, Florida</span>
+          <div>
+            <a href="catalog.html">Project archive</a>
+            <a href="https://github.com/imperator-clawdius">GitHub</a>
+            <a href="https://x.com/_teddymagic">X / Twitter</a>
+          </div>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
