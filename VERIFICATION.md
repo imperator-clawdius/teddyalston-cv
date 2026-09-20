@@ -53,3 +53,5 @@ GitHub Actions now runs the browser suite on every push and pull request.
 2026-09-20: reinstalled dependencies and revalidated all 24 browser tests on Windows. Trident metrics match the pinned case-study source and are now linked as reported snapshot metrics. See content/claim-sources.md for provenance and unresolved content/deployment requirements. No underlying telemetry or client records were inspected.
 
 Resume review correction: the PDF already contains extensive technical skills and selected engineering work; only the text sources retain the older operator headline. One-page visual rendering is clean. Founding-date conflict and TraceReady scope/deployment mismatch are recorded in content/claim-sources.md. No PDF replacement has been made pending resolution of factual discrepancies.
+
+Live release check 2026-09-20: Pages API reports main/root, HTTPS enforced, built commit 57966b4. Public homepage/catalog bytes exactly match main and differ from the repair branch; PDF bytes match both. CI run 35526186668 passed for a2742bf. Deployment of the repair branch remains outstanding, independently of the resume factual review.

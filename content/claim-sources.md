@@ -26,4 +26,4 @@ Do not increase counts based only on elapsed calendar time.
 
 ## Release evidence
 
-GitHub PR 2 was open, draft and unmerged at review, with head 2ed5537 and base 57966b4. Local browser checks do not prove the repair is deployed. The Pages API lookup did not return usable metadata in this review; current deployment remains unverified.
+GitHub PR 2 was open, draft and unmerged at review, with head 2ed5537 and base 57966b4. Local browser checks do not prove the repair is deployed. Direct authenticated Pages API verification subsequently confirmed HTTPS-enforced main/root deployment at 57966b48b7145a2510c35c831aec2e0c127bcb39. Public homepage and catalog bytes match that main commit and differ from the repair branch. The PDF matches both branches. The repair navigation script is not available on the public site. These repairs are therefore not yet deployed. CI run 35526186668 succeeded for a2742bf; run 35526190074 was still active when checked. The earlier billing failures from other repositories do not establish a current blocker here.
