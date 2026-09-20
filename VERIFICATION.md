@@ -49,3 +49,5 @@ Baseline: `57966b4`. Static GitHub Pages site; no application backend or forms.
   invented or rewritten as part of the functional repairs.
 
 GitHub Actions now runs the browser suite on every push and pull request.
+
+2026-09-20: reinstalled dependencies and revalidated all 24 browser tests on Windows. Trident metrics match the pinned case-study source and are now linked as reported snapshot metrics. See content/claim-sources.md for provenance and unresolved content/deployment requirements. No underlying telemetry or client records were inspected.
