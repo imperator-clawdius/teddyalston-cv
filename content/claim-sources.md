@@ -15,10 +15,14 @@ Do not increase counts based only on elapsed calendar time.
 
 ## Remaining content work
 
-- Review Argos and TraceReady implementation evidence against homepage claims.
+- Argos source inspection supports the seven named states and nine weighted domains (workflows/state_machine.md and schema/risk_policy.json at 401b19f86cf386eab56ddb70924b95a7f2878a0d). This is specification/policy evidence, not proof of live enforcement.
+- TraceReady README and next.config.ts at 1e5df237ed382d93cb0f6e37d1445e305fa29eca describe browser-side file cleanup, paid service Payment Links and a static GitHub Pages export. These support the homepage scope; they do not support the PDF wording about regulated document management or a Cloudflare deployment.
 - Reconcile the downloadable PDF with the forward-deployed engineering positioning, using only established experience and project evidence. The text resumes currently lead with Entrepreneur / Operator. Preserve the original extracted long resume as source history.
 - Confirm current credentials and business metrics before changing their wording or dates; source text alone does not verify present license status.
-- Inspect the PDF's actual contents and layout before replacing it. Existing browser tests verify download delivery, not resume accuracy.
+- PDF inspected and rendered on 2026-09-20 using local PyMuPDF (Poppler unavailable): one legible page, no observed clipping or overlaps. It already contains technical skills and engineering projects. Text extraction produces replacement characters for some punctuation although the visible rendering is correct; a rebuilt PDF should verify text extraction as well as appearance.
+- PDF says True Tax was founded in 2016; both extracted source resumes say 2018. Owner clarification is pending. Do not silently select one date.
+- PDF groups Passive Print Labs and Fire Blast under 2022-Present, while source text dates Passive Print Labs to 2024. Separate the entries when rebuilding.
+- PDF lists a public phone number; the historical extracted text deliberately omits it. Preserve existing publication choices pending a deliberate resume revision; do not copy the number into new audit documents.
 
 ## Release evidence
 
