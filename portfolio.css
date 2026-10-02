@@ -29,23 +29,6 @@
   outline-offset: 4px;
 }
 
-.skip-link {
-  position: fixed;
-  top: 12px;
-  left: 12px;
-  z-index: 30;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--dossier-lime);
-  background: var(--dossier-bg);
-  color: var(--dossier-ink);
-  font-weight: 800;
-  transform: translateY(-180%);
-}
-
-.skip-link:focus {
-  transform: translateY(0);
-}
-
 .portfolio-shell {
   display: grid;
   grid-template-columns: 238px minmax(0, 1fr);
@@ -208,7 +191,8 @@
 
 .headline-line {
   display: block;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .spectrum-rule {
@@ -676,7 +660,62 @@
   }
 }
 
+/* Keep the role readable before the desktop columns become too narrow. */
+@media (max-width: 1360px) {
+  .dossier-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-rail {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid var(--dossier-line-strong);
+    border-left: 0;
+  }
+
+  .proof-rail div:nth-child(odd) {
+    padding-right: 18px;
+    border-right: 1px solid var(--dossier-line);
+  }
+
+  .proof-rail div:nth-child(even) {
+    padding-left: 18px;
+  }
+
+  .case-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+  }
+
+  .case-row > .case-link,
+  .case-link-group {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 881px) and (max-width: 1000px) {
+  .flagship-case,
+  .case-row,
+  .operating-model,
+  .operator-section,
+  .contact-dossier {
+    grid-template-columns: 1fr;
+  }
+
+  .case-summary {
+    border-right: 0;
+    border-bottom: 1px solid var(--dossier-line);
+  }
+
+  .case-row > .case-link,
+  .case-link-group {
+    grid-column: auto;
+  }
+}
+
 @media (max-width: 880px) {
+  .portfolio-main [id] {
+    scroll-margin-top: 90px;
+  }
+
   .portfolio-shell {
     display: block;
   }
@@ -755,27 +794,8 @@
     color: var(--dossier-lime);
   }
 
-  .dossier-hero {
-    grid-template-columns: 1fr;
-  }
-
   .hero-statement {
     min-height: 500px;
-  }
-
-  .proof-rail {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    border-top: 1px solid var(--dossier-line-strong);
-    border-left: 0;
-  }
-
-  .proof-rail div:nth-child(odd) {
-    padding-right: 18px;
-    border-right: 1px solid var(--dossier-line);
-  }
-
-  .proof-rail div:nth-child(even) {
-    padding-left: 18px;
   }
 
   .flagship-case,
