@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-for (const path of ['/', '/catalog.html']) {
+for (const path of ['/', '/catalog.html', '/nightanchor/', '/nightanchor/privacy/']) {
   test(`${path} has working local assets, links, fragments, and PDF`, async ({ page, request }) => {
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
